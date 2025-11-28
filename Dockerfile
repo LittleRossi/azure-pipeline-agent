@@ -20,7 +20,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y -qq --no
     gnupg \
     software-properties-common \
     python3-pip \
+    tzdata \
     wget \
+    zip \
     unzip
     
 RUN DEBIAN_FRONTEND=noninteractive mkdir -p /etc/apt/keyrings && \
